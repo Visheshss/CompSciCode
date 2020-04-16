@@ -1,0 +1,84 @@
+<!DOCTYPE html5>
+<!-- This header is made so that the same code doesn't need to be pasted on each page. The header can simply be added to any page in one line of code.-->
+<html>
+	<head>
+
+		<link href="https://fonts.googleapis.com/css?family=Caveat|Kalam|Permanent+Marker|Special+Elite&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body style="margin: 0; background-color: #f1f3f4;">
+		<div id='bar'>
+			<center><h1 id='title'><img src="capw.png">EduShare</h1></center>
+			<div id="dropdowns">
+				<div id="drop">
+				  <button id="buttondrop">Register</button>
+				  <div id="dropmenu">
+				    <a href="TeacherRegistration.php">Teacher Register</a>
+				    <a href="ParentRegistration.php">Parent Register</a>
+				  </div>
+				</div>
+				<div id="drop">
+				  <button id="buttondrop">Login</button>
+				  <div id="dropmenu">
+				    <a href="TeacherLogin.php">Teacher Login</a>
+				    <a href="ParentLogin.php">Parent Login</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<style type="text/css">
+
+		#dropdowns {
+			position: relative;
+			top: -50px;
+			float: left;
+			left: -10px;
+		}
+
+		#buttondrop {
+			background-color: #2A7886;
+			color: white;
+			font-size: 20px;
+			border: none;
+			border-radius: 0px;
+			width: 150px;
+		}
+
+		#drop {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		#dropmenu {
+		  display: none;
+		  position: absolute;
+		  background-color: #2A7886;
+		  width: 150px;
+		}
+
+		#dropmenu a {
+		  color: white;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: center;
+		}
+
+		#dropmenu a:hover {
+		  color: #18b0b0;
+		}
+
+		#drop:hover #dropmenu {
+		  display: block;
+		}
+
+		#buttondrop:hover {
+		  color: #18b0b0;
+		}
+
+	</style>
+
+</html>
